@@ -1,0 +1,211 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  
+}
+
+.heading{
+  display: flex;
+  text-align: center;
+  background-color: #f4f4f9;
+  padding-top: 30px;
+  height: 100px;
+  padding-left: 200px;
+}
+.heading h2{
+  color: rgb(103, 169, 17);
+}
+.heading span{
+  color: rgb(39, 49, 90);
+}
+.heading-emp{
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  position: relative;
+  right: 10rem;
+  color: rgb(39, 49, 90);
+
+}
+
+
+.logo{
+  position: relative;
+  right: 13rem;
+  display:flex;
+  padding-bottom: 10px;
+}
+.emp-form{
+  background-color: gray;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+.form{
+  background-color: rgb(255, 255, 255);
+  width: 60%;
+  position: relative;
+  right: 1rem;
+  margin-bottom: 20px;
+  margin-top: 1px;
+}
+.name{
+  margin-left: 100px;
+  margin-top: 50px;
+}
+.inp-div{
+  margin-left:170px;
+  margin-top:-25px;
+  width: 60%;
+  height: 2em;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.profile-inp{
+  margin-left:180px;
+  margin-top:-43px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.profile-img{
+  margin-left: 100px;
+  margin-top: 50px;
+  gap: 15%;
+}
+
+.Gender{
+  display: flex;
+  position: relative;
+  left: 100px;
+  margin-top: 30px;
+}
+.gen-inp{
+  display: flex;
+  position: relative;
+  left: 40px;
+  gap: 25px;
+}
+
+.deptartmnt{
+  display: flex;
+  position: relative;
+  left: 100px;
+  margin-top: 30px;
+}
+
+.dept-inp{
+  display: flex;
+  position: relative;
+  left: 40px;
+  gap: 25px;
+}
+
+.Salary{
+  display: flex;
+  position: relative;
+  left: 100px;
+  margin-top: 30px;
+}
+
+.inp-sal{
+  display: flex;
+  position: relative;
+  left: 40px;
+}
+.Dates{
+  display: flex;
+  position: relative;
+  left: 100px;
+  margin-top: 30px;
+}
+
+.date-inp{
+  display: flex;
+  position: relative;
+  left: 40px;
+  gap: 45px;
+}
+.Notes{
+  display: flex;
+  position: relative;
+  left: 100px;
+  margin-top: 30px;
+}
+
+.notes-inp{
+  display: flex;
+  position: relative;
+  left: 40px;
+  gap: 45px;
+  width: 60%;
+  height: 2em;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.btns{
+display: flex;
+justify-content: center
+
+}
+.cancel-btn{
+  background-color: transparent;
+  border: 1px solid gray;
+  position: relative;
+  right: 150px;
+  margin-top: 5%;
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-size: 16px;
+  color: black;
+  cursor: pointer;
+  transition:background-color 0.3s ease;
+}
+.cancel-btn:hover{
+  background-color: #f0f0f0;
+}
+
+.submit{
+  background-color: transparent;
+  border: 1px solid gray;
+  position: relative;
+  left: 150px;
+  margin-top: 5%;
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-size: 16px;
+  color: black;
+  cursor: pointer;
+  transition:background-color 0.3s ease;
+}
+
+.submit:hover{
+  background-color: #f0f0f0;
+}
+
+.reset{
+  background-color: transparent;
+  border: 1px solid gray;
+  position: relative;
+  left: 180px;
+  margin-top: 5%;
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-size: 16px;
+  color: black;
+  cursor: pointer;
+  transition:background-color 0.3s ease;
+}
+.reset:hover{
+  background-color: #f0f0f0;
+}
+
